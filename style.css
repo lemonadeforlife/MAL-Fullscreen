@@ -1,0 +1,33 @@
+@-moz-document url-prefix("https://myanimelist.net/") {
+#myanimelist, #menu{
+    width: 100% !important;
+}
+
+.left-column, .right-column {
+    width: 50% !important;
+}
+article.widget-container:nth-child(1){
+    margin: 0 !important;
+}
+
+#widget-seasonal-video > div:nth-child(3){
+    width: auto !important;
+}
+
+.news-unit {
+    width: auto !important;
+}
+
+.widget-header{
+    text-align: center !important;
+}
+
+.h1.edit-info {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+#horiznav_nav{
+    text-align: center !important;
+}
+}
