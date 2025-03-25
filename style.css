@@ -1,12 +1,13 @@
 /* ==UserStyle==
 @name         MAL-Fullscreen
-@description  remove side margins extended the view
+@description  remove margins from both sides to extended the view
 @namespace    lemonadeforlife
 @version      1.0.0
 @author       lemonadeforlife (https://github.com/lemonadeforlife)
 @homepageURL  https://github.com/lemonadeforlife/MAL-Fullscreen
 @supportURL   https://github.com/lemonadeforlife/MAL-Fullscreen/issues
 @license      unlicense
+@match        https://myanimelist.net
 @preprocessor stylus
 ==/UserStyle== */
 
