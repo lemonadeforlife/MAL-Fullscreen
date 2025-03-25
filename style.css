@@ -9,6 +9,7 @@
 @license      unlicense
 @match        https://myanimelist.net
 @preprocessor stylus
+@updateURL https://raw.githubusercontent.com/lemonadeforlife/MAL-Fullscreen/refs/heads/main/style.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://myanimelist.net/") {
