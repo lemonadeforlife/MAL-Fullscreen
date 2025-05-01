@@ -10,7 +10,7 @@
 @match        https://myanimelist.net
 @preprocessor stylus
 @downloadURL https://greasyfork.org/en/scripts/530822-mal-fullscreen
-@updateURL https://raw.githubusercontent.com/lemonadeforlife/MAL-Fullscreen/refs/heads/main/style.css
+@updateURL https://raw.githubusercontent.com/lemonadeforlife/MAL-Fullscreen/refs/heads/main/style.user.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://myanimelist.net/") {
