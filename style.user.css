@@ -45,4 +45,7 @@ article.widget-container:nth-child(1){
 #horiznav_nav{
     text-align: center !important;
 }
+.navi-seasonal.js-navi-seasonal{
+    width: 99%  !important;
+}
 }
