@@ -46,4 +46,13 @@ article.widget-container:nth-child(1){
 .navi-seasonal.js-navi-seasonal{
     width: 99%  !important;
 }
+.content-left{
+    width:60% !important;
+}
+.content-right{
+    width: 40% !important;
+}
+.content-right .js-scrollfix-bottom{
+    width: 100% !important;
+}
 }
