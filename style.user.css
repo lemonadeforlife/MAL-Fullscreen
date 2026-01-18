@@ -11,48 +11,72 @@
 @updateURL https://raw.githubusercontent.com/lemonadeforlife/MAL-Fullscreen/refs/heads/main/style.user.css
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://myanimelist.net/") {
-#myanimelist, #menu{
+@-moz-document url-prefix("https://myanimelist.net/")
+{
+  #myanimelist,
+  #menu {
     width: 100% !important;
-}
+  }
 
-.left-column, .right-column {
+  .left-column,
+  .right-column {
     width: 50% !important;
-}
-article.widget-container:nth-child(1){
+  }
+
+  article.widget-container:nth-child(1) {
     margin: 0 !important;
-}
+  }
 
-#widget-seasonal-video > div:nth-child(3){
+  #widget-seasonal-video > div:nth-child(3) {
     width: auto !important;
-}
+  }
 
-.news-unit {
+  .news-unit {
     width: auto !important;
-}
+  }
 
-.widget-header{
+  .widget-header {
     text-align: center !important;
-}
+  }
 
-.h1.edit-info {
+  .h1.edit-info {
     display: flex !important;
     justify-content: space-between !important;
+  }
+
+  #horiznav_nav {
+    text-align: center !important;
+  }
+
+  .navi-seasonal.js-navi-seasonal {
+    width: 99% !important;
+  }
+
+  .content-left {
+    width: 60% !important;
+  }
+
+  .content-right {
+    width: 40% !important;
+  }
+
+  .content-right .js-scrollfix-bottom {
+    width: 100% !important;
+  }
 }
 
-#horiznav_nav{
-    text-align: center !important;
-}
-.navi-seasonal.js-navi-seasonal{
-    width: 99%  !important;
-}
-.content-left{
-    width:60% !important;
-}
-.content-right{
-    width: 40% !important;
-}
-.content-right .js-scrollfix-bottom{
+@-moz-document url-prefix("https://myanimelist.net/anime/season")
+{
+  .navi-seasonal {
     width: 100% !important;
-}
+  }
+
+  .horiznav_nav {
+    padding: 0 !important;
+    padding-right: 1.5% !important;
+  }
+
+  .dark-mode .navi-seasonal.fixed::after {
+    width: 100%;
+  }
 }
