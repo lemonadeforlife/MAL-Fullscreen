@@ -2,7 +2,7 @@
 @name         MAL-Fullscreen
 @description  remove margins from both sides to extended the view
 @namespace    lemonadeforlife
-@version      1.1.0
+@version      1.1.1
 @author       lemonadeforlife (https://github.com/lemonadeforlife)
 @homepageURL  https://github.com/lemonadeforlife/MAL-Fullscreen
 @supportURL   https://github.com/lemonadeforlife/MAL-Fullscreen/issues
@@ -78,5 +78,13 @@
 
   .dark-mode .navi-seasonal.fixed::after {
     width: 100%;
+  }
+}
+
+@-moz-document url-prefix("https://myanimelist.net/notification/")
+{
+  .is-read {
+    color: dimgrey !important;
+    text-align: center;
   }
 }
