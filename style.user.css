@@ -88,3 +88,10 @@
     text-align: center;
   }
 }
+
+@-moz-document url-prefix("https://myanimelist.net/")
+{
+  #fancybox-wrap > #fancybox-outer {
+    background-color: white !important;
+  }
+}
